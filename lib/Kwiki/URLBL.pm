@@ -2,7 +2,7 @@ package Kwiki::URLBL;
 
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use Kwiki::Plugin -Base;
 use Kwiki::Installer -base;
@@ -94,7 +94,7 @@ Kwiki::URLBL - Block edit based on added URLs by checking URL DNSBL
 
 =head1 DESCRIPTION
 
-Kwiki::URLBL is a Kwiki Plugin to block Wiki edit based on added URLs by cheking URL based DNS Blacklists like L<http://www.surbl.org>, L<http://bsb.empty.us/> and L<http://bulkfeeds.net/blacklist>.
+Kwiki::URLBL is a Kwiki Plugin to block Wiki edit based on added URLs by cheking URL based DNS Blacklists like L<http://www.surbl.org/>, L<http://bsb.empty.us/> and L<http://bulkfeeds.net/app/blacklist>.
 
 =head1 CONFIGURATION
 
@@ -104,7 +104,7 @@ You can manually list URLBL DNS services in C<config.yaml> file:
 
 =head1 AUTHOR
 
-Tatsuhiko Miyagawa E<lt>miyagawa@gmail.comyE<gt>
+Tatsuhiko Miyagawa E<lt>miyagawa@gmail.comE<gt>
 
 Most of the code is taken from L<Kwiki::URLBlock> by Jon Asulud.
 
